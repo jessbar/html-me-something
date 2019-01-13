@@ -1,61 +1,71 @@
 
 html, body {
     font-family: sans-serif;
-    margin: 0;
+    margin: 100px, 400px;
     width: 100%;
     height: 100%;
+    background-color: bisque
 }
   
 h1 {
     font-size: 60px;
-    
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    max-width: 75%;
+    min-width: 500px;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    }
+
+h3 {
+    text-align: center;
+    font-size: 2em
 }
   
 p {
-    max-width: 65%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 75%;
     min-width: 500px;
-    font-size: 1rem;
-}
-  
-h2 {
-text-align: left;
-font-size: 2.6rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 div {
-padding-right: 30px;
-height: 100%;
-width: 100%;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
 }
 footer{
     text-align: center;
+    padding-bottom: .5in;
 }
+
 img {
-	width: 100%;
-	max-width: 100%;
+	width: 75%;
+    max-width: 75%; 
 }
 
-.container {
-
-}
-
-.main {
-padding-left: 30px;
-min-width: 75%;
+ul {
+    text-align: center;
+    list-style-type: none;
 }
 
 .nav {
-background-color: rgb(19, 13, 75);
+background-color: rgb(68, 62, 126);
 max-width: 100%;
 min-width: 160px;
-
-
-color: rgb(41, 236, 139)
-
+color: rgb(41, 236, 139);
 }
 
 .nav h3 {
 color: rgb(17, 230, 98);
 padding-left: 20px;
 
+}
+#Washington {
+    background-color: rgb(192, 231, 119);
+    border: 1px solid black;
 }
