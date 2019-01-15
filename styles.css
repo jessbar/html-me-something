@@ -65,6 +65,10 @@ color: rgb(17, 230, 98);
 padding-left: 20px;
 
 }
+
+#myheader {
+    color: rgb(60, 255, 0);
+}
 #Washington {
     background-color: rgb(192, 231, 119);
     border: 1px solid black;
